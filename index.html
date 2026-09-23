@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!-- Declaración del tipo de documento. Indica al navegador que es HTML5. -->
+<html lang="es">
+<!-- La etiqueta html envuelve todo el documento. -->
+<!-- lang="es" indica que el contenido está en español, lo que ayuda a lectores de pantalla
+(accesibilidad). -->
+
+<head>
+    <!-- La sección head contiene información que NO se ve en la página, pero que el
+navegador necesita. -->
+    <meta charset="UTF-8">
+    <!-- charset="UTF-8" permite mostrar correctamente tildes, ñ y símbolos. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- viewport hace que la página se adapte a celulares y tablets (diseño responsive). -->
+    <meta name="description" content="Página informativa sobre el Diseño Centrado en el
+Usuario (DCU).">
+    <!-- description es un resumen que usan los buscadores. Mejora el SEO y la comprensión
+del sitio. -->
+    <title>¿Qué es el Diseño Centrado en el Usuario? | DCU</title>
+    <!-- title es el texto que aparece en la pestaña del navegador. Debe ser claro y
+descriptivo. -->
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- link conecta esta página con una hoja de estilos externa (CSS). -->
+</head>
+
+<body>
+    <!-- body contiene todo el contenido visible de la página. -->
+    <!-- ==================== ENCABEZADO ==================== -->
+    <header>
+        <!-- header representa la cabecera de la página. Normalmente incluye el logo y el
+título principal. -->
+        <h1>Diseño Centrado en el Usuario (DCU)</h1>
+        <!-- h1 es el título más importante. Solo debe haber UN h1 por página. -->
+        <!-- Un buen h1 ayuda al usuario a saber de qué trata la página (principio de
+visibilidad del estado). -->
+        <p><strong>Principios de Usabilidad y Experiencia en la Creación de Interfaces
+                Web</strong></p>
+        <!-- p es un párrafo. strong resalta el texto con importancia semántica. -->
+    </header>
+    <!-- ==================== NAVEGACIÓN ==================== -->
+    <nav>
+        <!-- nav agrupa los enlaces de navegación principal. -->
+        <!-- Una navegación clara es clave para la usabilidad (heurística 4: consistencia y
+estándares). -->
+        <ul>
+            <!-- ul es una lista desordenada. Se usa para agrupar los enlaces. -->
+            <li><a href="#definicion">Definición</a></li>
+            <!-- li es cada elemento de la lista. a es un enlace. -->
+            <!-- href="#definicion" lleva al usuario a la sección con id="definicion". -->
+            <li><a href="#principios">Principios</a></li>
+            <li><a href="#importancia">Importancia</a></li>
+            <li><a href="#accesibilidad">Accesibilidad</a></li>
+        </ul>
+    </nav>
+    <!-- ==================== CONTENIDO PRINCIPAL ==================== -->
+    <main>
+        <!-- main contiene el contenido principal de la página. Solo debe haber UN main por
+página. -->
+        <!-- ----- SECCIÓN: DEFINICIÓN ----- -->
+        <section id="definicion">
+            <!-- section agrupa contenido relacionado temáticamente. -->
+            <!-- id="definicion" permite que el enlace del nav llegue hasta aquí. -->
+            <h2>¿Qué es el Diseño Centrado en el Usuario?</h2>
+            <!-- h2 es un subtítulo de segundo nivel. Respeta la jerarquía: h1 > h2 > h3. -->
+            <!-- ==================== ENCABEZADO ==================== -->
+            <header>
+                <!-- header representa la cabecera de la página. Normalmente incluye el logo y el
+título principal. -->
+                <h1>Diseño Centrado en el Usuario (DCU)</h1>
+                <!-- h1 es el título más importante. Solo debe haber UN h1 por página. -->
+                <!-- Un buen h1 ayuda al usuario a saber de qué trata la página (principio de
+visibilidad del estado). -->
+                <p><strong>Principios de Usabilidad y Experiencia en la Creación de Interfaces
+                        Web</strong></p>
+                <!-- p es un párrafo. strong resalta el texto con importancia semántica. -->
+            </header>
+            <!-- ==================== NAVEGACIÓN ==================== -->
+            <nav>
+                <!-- nav agrupa los enlaces de navegación principal. -->
+                <!-- Una navegación clara es clave para la usabilidad (heurística 4: consistencia y
+estándares). -->
+                <ul>
+                    <!-- ul es una lista desordenada. Se usa para agrupar los enlaces. -->
+                    <li><a href="#definicion">Definición</a></li>
+                    <!-- li es cada elemento de la lista. a es un enlace. -->
+                    <!-- href="#definicion" lleva al usuario a la sección con id="definicion". -->
+                    <li><a href="#principios">Principios</a></li>
+                    <li><a href="#importancia">Importancia</a></li>
+                    <li><a href="#accesibilidad">Accesibilidad</a></li>
+                </ul>
+            </nav>
+            <!-- ==================== CONTENIDO PRINCIPAL ==================== -->
+            <main>
+                <!-- main contiene el contenido principal de la página. Solo debe haber UN main por
+página. -->
+                <!-- ----- SECCIÓN: DEFINICIÓN ----- -->
+                <section id="definicion">
+                    <!-- section agrupa contenido relacionado temáticamente. -->
+                    <!-- id="definicion" permite que el enlace del nav llegue hasta aquí. -->
+                    <h2>¿Qué es el Diseño Centrado en el Usuario?</h2>
+                    <!-- h2 es un subtítulo de segundo nivel. Respeta la jerarquía: h1 > h2 > h3. -->
+                    <!-- ----- SECCIÓN: IMPORTANCIA ----- -->
+                    <section id="importancia">
+                        <h2>Importancia del DCU en Interfaces Web</h2>
+                        <h3>Para el Usuario</h3>
+                        <ul>
+                            <li>Mayor satisfacción al interactuar</li>
+                            <li>Reducción de errores y frustración</li>
+                            <li>Aprendizaje más rápido del sistema</li>
+                        </ul>
+                        <h3>Para el Negocio</h3>
+                        <ul>
+                            <li>Aumento de conversión y retención</li>
+                            <li>Reducción de costos de soporte</li>
+                            <li>Mayor fidelización y confianza</li>
+                        </ul>
+                        <h3>Para el Desarrollo</h3>
+                        <ul>
+                            <li>Menos rediseños costosos</li>
+                            <li>Requisitos claros y validados</li>
+                            <li>Reducción de riesgos</li>
+                        </ul>
+                    </section>
+            </main>
+            <!-- ==================== PIE DE PÁGINA ==================== -->
+            <footer>
+                <!-- footer representa el pie de página. Suele incluir información de contacto,
+derechos, etc. -->
+                <p>Desarrollo de Interfaces 1 | Ciclo 2</p>
+                <p>&copy; 2024 — Práctica de laboratorio sobre DCU</p>
+                <!-- &copy; es una entidad HTML que muestra el símbolo ©. -->
+            </footer>
+</body>
+
+</html>

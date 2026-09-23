@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Ejercicio 7</h1>
+    <table>
+        <tr>
+            <th> <label for="nombre">Nombre completo:</label></th>
+            <th> <input type="text" id="nombre" name="nombre" placeholder="Ej. Juan Pérez" required></th>
+        </tr>
+        <tr>
+            <th><label for="correo">Correo electrónico:</label></th>
+            <th><input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required></th>
+        </tr>
+        <tr>
+            <th><label for="asunto">Asunto:</label></th>
+            <th> <select id="asunto" name="asunto" required>
+                <option value="" disabled selected>Selecciona una opción</option>
+                <option value="soporte">Soporte Técnico</option>
+                <option value="ventas">Ventas / Comercial</option>
+                <option value="sugerencia">Sugerencias</option>
+                <option value="otro">Otro motivo</option>
+            </select></th>
+            <tr>
+            <tr>
+                <th> <label for="mensaje">Mensaje:</label></th>
+                <th><textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea></th>
+
+            </tr>
+        </tr>
+        <tr>
+            <th><button type="submit">Enviar mensaje</button></th>
+        </tr>  
+    </table>
+</body>
+
+</html>
